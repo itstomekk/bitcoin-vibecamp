@@ -1,0 +1,2 @@
+## Metadata
+- Keep route-specific search metadata and indexing directives in `useSiteMeta`, not page effects; centralized ownership prevents navigation and asynchronous content updates from overwriting page identity.

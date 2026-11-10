@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Caveat:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --background: 195 30% 95%;
+    --foreground: 204 86% 10%;
+
+    --card: 195 25% 97%;
+    --card-foreground: 200 80% 8%;
+
+    --popover: 195 25% 97%;
+    --popover-foreground: 200 80% 8%;
+
+    --primary: 185 85% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 170 35% 88%;
+    --secondary-foreground: 200 80% 8%;
+
+    --muted: 195 20% 88%;
+    --muted-foreground: 200 10% 45%;
+
+    --accent: 165 65% 38%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 195 22% 82%;
+    --input: 195 22% 82%;
+    --ring: 185 85% 40%;
+
+    --radius: 0rem;
+
+    --bitcoin: 33 93% 54%;
+    --vibe: 326 100% 65%;
+
+    --dark-bg: 200 60% 8%;
+    --dark-fg: 185 30% 92%;
+
+    --ocean: 185 85% 40%;
+    --ocean-light: 180 65% 58%;
+    --ocean-deep: 205 75% 22%;
+    --lagoon: 165 65% 42%;
+    --reef: 155 55% 48%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased font-semibold;
+  }
+
+  /* Make all text stand out: bump weight + subtle shadow on dark backgrounds.
+     Light text (white/light) on dark/image backgrounds gets a soft shadow for readability. */
+  p, span, li, a, button, label, input, textarea, h1, h2, h3, h4, h5, h6, div {
+    font-weight: 600;
+  }
+
+  h1, h2, h3, h4, h5, h6, strong, b {
+    font-weight: 800 !important;
+  }
+
+  /* Auto text-shadow for light-colored text (improves contrast over imagery/gradients) */
+  .text-white,
+  [class*="text-white/"] {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-wide;
+  }
+}
+
+@layer components {
+  .section-label {
+    @apply text-xs font-mono font-semibold tracking-[0.25em] uppercase text-primary mb-4;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[hsl(185,85%,40%)] to-[hsl(165,65%,42%)];
+  }
+}
+
+/* Breathing effects */
+.breathe-hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.breathe-hover:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 30px -8px hsl(326 100% 65% / 0.15);
+}
+
+.breathe-scroll {
+  animation: breathe 4s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(1); opacity: 0.9; }
+  50% { transform: scale(1.03); opacity: 1; }
+}
+
+/* Cursor blink for >_ prefix and RevealText */
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-cursor-blink {
+  animation: cursorBlink 600ms step-end infinite;
+}
+
+/* Gate page sky background */
+.gate-sky {
+  background: linear-gradient(
+    180deg,
+    hsl(210, 80%, 38%) 0%,
+    hsl(200, 85%, 48%) 25%,
+    hsl(190, 80%, 55%) 50%,
+    hsl(180, 70%, 60%) 70%,
+    hsl(45, 75%, 75%) 90%,
+    hsl(35, 85%, 72%) 100%
+  );
+}
+
+/* Animated clouds */
+.cloud {
+  position: absolute;
+  background: white;
+  border-radius: 9999px;
+  opacity: 0.25;
+  filter: blur(30px);
+}
+
+.cloud-1 {
+  width: 300px;
+  height: 80px;
+  top: 15%;
+  left: -10%;
+  animation: drift 25s linear infinite;
+}
+
+.cloud-2 {
+  width: 200px;
+  height: 60px;
+  top: 25%;
+  left: 20%;
+  animation: drift 35s linear infinite;
+  animation-delay: -10s;
+}
+
+.cloud-3 {
+  width: 250px;
+  height: 70px;
+  top: 10%;
+  left: 50%;
+  animation: drift 30s linear infinite;
+  animation-delay: -5s;
+}
+
+@keyframes drift {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(calc(100vw + 100%)); }
+}
+
+/* Slide up animation for content reveal */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}

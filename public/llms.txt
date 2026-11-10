@@ -1,0 +1,14 @@
+# Bitcoin Vibecamp
+
+> A 6-day Bitcoin builder bootcamp & hackathon in Próspera, Roatán (Honduras) — the only jurisdiction where Bitcoin is legal tender. v0.1 shipped; v0.2 dates TBA.
+
+Bitcoin Vibecamp brings developers, founders, hackers, vibe coders and capable beginners together for a week of building with AI on a Caribbean island. Half hackathon, half pirate retreat. Organized by Bitcoin District & friends.
+
+## Pages
+
+- [Home](/): Event overview, program, location, partners and signup.
+- [Explainer](/about): Full reference — everything about the week, costs, teams, plus practical info on Próspera and Roatán.
+
+## Optional
+
+- [Bitcoin District](https://thebitcoindistrict.com): Organizing community inside Próspera.

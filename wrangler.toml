@@ -1,0 +1,13 @@
+# Cloudflare Pages project: static Vite build + Pages Functions in ./functions
+name = "bitcoin-vibecamp"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-01"
+
+# Plain vars live here: with a wrangler.toml, Pages drops dashboard plain-text vars on deploy (secrets survive).
+[vars]
+NOSTR_NOTIFY_TO_HEX = "ab8cb80e5e42a5c45fcf0a6c297e758b113a87daa5028b10b22b8adf5395d502" # Tomek's npub14wxts...: waitlist DMs
+
+[[d1_databases]]
+binding = "DB"
+database_name = "bitcoin-vibecamp"
+database_id = "10e445ea-9b26-4788-93b7-bee93c8ca27c"

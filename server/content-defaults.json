@@ -1,0 +1,742 @@
+{
+  "about.copy": {
+    "heroTitle": "what is vibecoding?",
+    "heroLead": "You say what you want in plain words. The AI writes the code.",
+    "heroSub": "That's it. The rest of this page is what that actually means, what you'd learn in a week of it, and where it happens.",
+    "heroStrip": "Bitcoin Vibecamp · v0.2 dates TBA · Próspera, Roatán · Free if you live here",
+    "coreHeading": "the code stopped being the hard part",
+    "coreParagraphs": [
+      "Software is text. Very picky text. Writing it used to mean a year or two of tutorials before you could make anything someone else would use.",
+      "Now you describe the thing and the AI writes it. That's vibecoding. It works, and it is genuinely fast.",
+      "The catch: the AI does exactly what you asked, mistakes included. If you don't know roughly how a website is put together, you can't tell it what went wrong — and you stall on day two.",
+      "So the week isn't about the tool. It's about being able to steer it, and to keep steering it after you fly home."
+    ],
+    "pullQuote": "the hard part didn't disappear. it moved.",
+    "honestyHeading": "three things up front",
+    "honestyItems": [
+      "**The AI is wrong sometimes, and confident about it.** Spotting that is a skill, and we drill it.",
+      "**You need to understand what it built.** Otherwise you can't change it later. A whole day goes on this.",
+      "**A week is a week.** You leave with something real and running, and the habits to keep going. Not a company."
+    ],
+    "skillsHeading": "the skills you leave with",
+    "skills": [
+      "Driving an AI agent properly — describing, planning, correcting, and knowing when to start over.",
+      "Reading what the AI built well enough to change it yourself.",
+      "The map of an app: frontend, backend, database, API — what each part does and where things break.",
+      "Getting something live on the internet, on a real address, that stays up.",
+      "Version control and git: saving work, branching, undoing a bad afternoon without panic.",
+      "Working in the open — forks, pull requests, and contributing to someone else's code.",
+      "Handing work between agents and models instead of babysitting one chat.",
+      "Taking a Bitcoin or Lightning payment, if that fits what you're building.",
+      "Debugging: reading an error, isolating it, and asking the right question about it."
+    ],
+    "skillsNote": "**The point is independence.** By Friday you can ask for a change to your own project and put it live without asking us.",
+    "examplesHeading": "what people actually build here",
+    "examples": [
+      {
+        "icon": "🤿",
+        "who": "A dive shop",
+        "what": "a booking form, so the day's trips stop living in WhatsApp and sit on one page."
+      },
+      {
+        "icon": "🍤",
+        "who": "A restaurant",
+        "what": "a menu you edit yourself in a minute, two languages, tonight's specials on it."
+      },
+      {
+        "icon": "🏨",
+        "who": "A small hotel",
+        "what": "a direct booking page of your own, next to the booking sites."
+      },
+      {
+        "icon": "🛥️",
+        "who": "A tour operator",
+        "what": "one page showing what's running this week, with reservations that don't need a phone call."
+      },
+      {
+        "icon": "🧾",
+        "who": "A freelancer",
+        "what": "an invoice and quote page that takes Lightning, so getting paid isn't three messages."
+      },
+      {
+        "icon": "🎟️",
+        "who": "A community organiser",
+        "what": "an events page with sign-ups, instead of a poster in a group chat."
+      },
+      {
+        "icon": "🎮",
+        "who": "A developer",
+        "what": "a small game, a bot, or a tool for something you personally do every week."
+      },
+      {
+        "icon": "💡",
+        "who": "Anyone with an idea",
+        "what": "no business needed. Plenty of people arrive with something they've meant to build for years.",
+        "accent": true
+      }
+    ],
+    "examplesNote": "**Scope beats ambition.** The projects that finish are the ones you can describe in one sentence.",
+    "whereHeading": "where is it",
+    "whereParagraphs": [
+      "In **Próspera**, on Roatán — the island jurisdiction where Bitcoin is legal tender. Workshops run in **The Dome**, the round hall in the Zona, and we cowork out of the **Bitcoin Center** next door.",
+      "Everything is walkable from there: coffee, lunch, the sea. Afternoons happen wherever you work best — a desk in the Center, a table outside, or the beach.",
+      "Getting there: fly into RTB, then a short drive. We coordinate group rides. [Open in Google Maps](https://www.google.com/maps/search/?api=1&query=Pr%C3%B3spera+ZEDE+Roat%C3%A1n+Honduras)"
+    ],
+    "objectionsHeading": "questions people ask",
+    "objections": [
+      {
+        "q": "“I don't know anything about computers.”",
+        "a": "That's who the beginner track is for. Around half the room won't have written a line of code. You describe what you want in plain words and we teach the rest from zero."
+      },
+      {
+        "q": "“I can't leave my business for a week.”",
+        "a": "Send someone — a manager, a family member, whoever runs your Facebook page. Seats are transferable, and the person you send comes back able to do this for you."
+      },
+      {
+        "q": "“Is this a Bitcoin sales pitch?”",
+        "a": "No. Bitcoin turns up where it's useful — payments on launch day, and the party. The rest of the week is building your thing."
+      },
+      {
+        "q": "“What do I need to bring?”",
+        "a": "A laptop and one real problem worth solving. We send a short setup list a week ahead — a couple of free accounts, nothing to install on the day."
+      },
+      {
+        "q": "“Why is it free for residents?”",
+        "a": "Because we want locals in the room, not only visitors. That's the whole reason."
+      }
+    ],
+    "teachersHeading": "who's teaching",
+    "teachersParagraphs": [
+      "Tomek, Dusan, Kevin and Sebastian, for a room of 15 to 30 people. Small enough that everyone knows everyone by Tuesday.",
+      "It runs sideways too. Half the room codes, half doesn't, and both halves know things the other doesn't. The person who fixes your layout might be the person whose booking form you fix."
+    ],
+    "referenceHeading": "everything else",
+    "referenceIntro": "Dates, costs, projects, and the practical stuff about Próspera and Roatán. Open the question you need.",
+    "ctaHeading": "live on Roatán? your seat is free.",
+    "ctaParagraphs": [
+      "All four teaching days, lunch included, plus Friday's party and Saturday's networking. You bring a laptop and get yourself to Próspera — we help organise shared rides.",
+      "One seat per business, so the reach stays wide, and it's transferable: if you can't come, send whoever handles your website."
+    ],
+    "ctaButton": "Claim a seat",
+    "ctaFootnote": "Not from Roatán?",
+    "footerLines": [
+      "Bitcoin Vibecamp · Próspera, Roatán, Honduras · v0.2 dates TBA",
+      "15–30 people · four teaching days · brought by Bitcoin District & friends",
+      "vibecamp@thebitcoindistrict.com · bitcoinvibe.camp"
+    ]
+  },
+  "faq.vibecamp": [
+    {
+      "q": "What is Vibecamp?",
+      "a": "A week of hands-on workshops that teach you to build software with AI, side by side with a small group of 15–30 people.\n\nMornings are workshops — short blocks, one idea at a time, so you can apply it straight away. Afternoons are for building your own thing, with mentors around when you get stuck. Evenings end with a short session and a daily recap of what everyone shipped.\n\nWe take on real problems from businesses and projects on Roatán, and yes, a few mini games get built along the way."
+    },
+    {
+      "q": "When and where?",
+      "a": "Próspera, Roatán, Honduras. v0.1 is done; v0.2 dates are TBA — workshops in The Dome, coworking at the Bitcoin Center. [Open in Google Maps](https://www.google.com/maps/search/?api=1&query=Pr%C3%B3spera+ZEDE+Roat%C3%A1n+Honduras).\n\n• Days 1–4: workshops + building\n• Day 5: relaxed cowork + party\n• Day 6: business networking + Demo Day"
+    },
+    {
+      "q": "What is the daily schedule like?",
+      "a": "Mornings, 09:00–13:00: three to four workshops.\n\nAfternoons, 14:00–19:00: you build at your own tempo, with mentors available. Most people cowork in the same space, but nobody is counting.\n\nEvening, 20:00: one short vibe-coding session, then a quick recap — what got done, what's next tomorrow."
+    },
+    {
+      "q": "Do I need to know how to code?",
+      "a": "No, and around half the room won't. We teach the workflow, the tools and the habits from zero. You leave able to build and ship your own software — not a computer-science graduate, but a builder."
+    },
+    {
+      "q": "What will I actually learn?",
+      "a": "Driving an AI agent properly, reading what it built, the map of an app (frontend, backend, database, API), git and undoing mistakes, working in the open, deploying to a real address, and taking a Bitcoin payment if that fits your project.\n\nThe full list is on the [explainer page](/about)."
+    },
+    {
+      "q": "What kind of projects should I build?",
+      "a": "Something that runs. A working prototype, an integration, a tool, or real progress on a real problem — not a pitch deck.\n\nProblems from businesses and projects here on Roatán are the most rewarding fit, and Bitcoin-relevant ideas (Lightning UX, merchant tools, wallets, education tooling) work great too. What matters most is scope: pick something you can finish in a week."
+    },
+    {
+      "q": "How much does it cost?",
+      "a": "500,000 sats standard, 2,000,000 sats all-inclusive.\n\nStandard covers the workshops, the build week, side activities and the networking day. All-inclusive adds accommodation, food, local transport and some bonus activities.\n\nRoatán residents join for free."
+    },
+    {
+      "q": "Who is teaching?",
+      "a": "Tomek, Dusan, Kevin and Sebastian, plus guests from partner projects. Four teachers for 15–30 people, so you get real attention in the afternoons rather than a lecture hall."
+    },
+    {
+      "q": "How do teams work? Can I come alone?",
+      "a": "Plenty of people come solo. There's a team formation session on Monday morning where people pitch ideas and find each other, and we help people connect before the event.\n\nTeams are optional. Working alone is fine."
+    },
+    {
+      "q": "How does Demo Day work?",
+      "a": "Each project gets about 12 minutes to show what it does, and we livestream it. Mentors and the audience give friendly feedback — a share-and-learn session. Showing unfinished work is completely normal."
+    },
+    {
+      "q": "How intense is it?",
+      "a": "Focused, not punishing. Mornings are structured, afternoons are yours. Some people do long build blocks, others take a beach break and come back for the evening session."
+    },
+    {
+      "q": "What should I prepare before coming?",
+      "a": "A laptop, and whatever dev tools or vibe-coding platforms you already use — there's no required stack. We send a short setup list a week ahead: a couple of free accounts, nothing to install on the day.\n\nBring one real problem you'd like solved. That's the best raw material for the week."
+    },
+    {
+      "q": "Who should NOT come?",
+      "a": "If you want to sit and listen to talks all week, this isn't it. Same if you're coming to promote something rather than build something. You don't need to be technical, but you do need to be willing to work on a project and take feedback."
+    }
+  ],
+  "faq.prospera": [
+    {
+      "q": "What is Próspera?",
+      "a": "Próspera is an early-stage city development on Roatán, Honduras, and the one jurisdiction where Bitcoin is legal tender. Not a finished downtown, not wilderness either: functional infrastructure, a real working environment, Caribbean nature around it.\n\nAbout 100 people live there full time, with a growing builder and startup scene. You'll see construction and a few rough edges, but day to day it works fine."
+    },
+    {
+      "q": "Where exactly does Vibecamp happen?",
+      "a": "Workshops run in The Dome, the round hall in the Zona of Próspera. Coworking and afternoon building happen at the Bitcoin Center next door. Everything is walkable — coffee, lunch, the sea."
+    },
+    {
+      "q": "How do I get there?",
+      "a": "Fly into RTB (Roatán airport), then a short drive to Próspera. We coordinate group transport. You don't need a car for Vibecamp: inside Próspera everything is walkable, and for the wider island taxis and group rides work fine."
+    },
+    {
+      "q": "What's the weather like? What should I pack?",
+      "a": "Hot and humid, 28–30°C (82–86°F). August is low season, so fewer tourists.\n\nPack light clothes, one rain layer, sunscreen, swimwear, sandals and one pair of closed shoes. For work: laptop, chargers, and an extension cable if you have one."
+    },
+    {
+      "q": "How's the internet?",
+      "a": "Workable, not enterprise-grade — a local ISP plus Starlink. Don't assume 100% uptime; keep offline workflows for anything critical. Power is generally stable and outages are rare."
+    },
+    {
+      "q": "What currency do I need?",
+      "a": "Bitcoin is the preferred currency inside Próspera and is accepted at many places across Roatán. Outside Próspera the island runs on Honduran lempira and US dollars, and cards work widely.\n\nArrive with a Lightning wallet set up. Bring some USD cash as backup."
+    },
+    {
+      "q": "What about ATMs and phone data?",
+      "a": "ATMs (including Bitcoin ATMs) are nearby. For connectivity, get an eSIM before you arrive — Airalo is the easiest. Having data when you land saves a lot of hassle."
+    },
+    {
+      "q": "Where do people stay?",
+      "a": "A mix: some stay inside Próspera, others in apartments and houses nearby, depending on budget. Apartments have kitchens and laundry.\n\nFamilies are welcome — there are families living on site and a Montessori school in the area."
+    },
+    {
+      "q": "How do we eat?",
+      "a": "Apartments have kitchens, and there are restaurants, cafés and delivery. Some group meals are included in the ticket, and there's an optional meal plan if you'd rather not think about food. A large supermarket is reachable by group ride."
+    },
+    {
+      "q": "Is it safe?",
+      "a": "Yes. Próspera is a private development and feels orderly, and Roatán is a tourist island that's safe with normal common sense. There's a GP on site for basic medical needs; for anything more serious we'll help you find local services."
+    },
+    {
+      "q": "What are the social rules?",
+      "a": "No formal code of conduct. Be chill, have fun, respect each other, network with good intentions. Quiet hours after 10pm in residential areas — builders can keep working in the right venues. Ask before taking close-up photos or recording people.\n\nIf something comes up and you can't attend, email vibecamp@thebitcoindistrict.com and we'll sort it out."
+    },
+    {
+      "q": "What's Roatán like outside Próspera?",
+      "a": "Not remote. Supermarkets, restaurants and tourist infrastructure all exist, and English is widely spoken alongside Spanish. The island isn't very walkable — you get around by taxi or ride, on decent roads by Caribbean standards.\n\nOutside workshop hours: beach, snorkeling, diving, hiking, two gyms, tennis, disc golf, billiards, ping-pong, foosball, restaurants, bars. We organise social events that mix attendees with Próspera residents."
+    },
+    {
+      "q": "How do I connect with Bitcoin District beyond the event?",
+      "a": "Bitcoin District runs a local community inside Próspera. During the week we introduce you to residents, builders and business owners where it makes sense. There's also a rhythm you can plug into afterwards: coworking Tuesdays, weekly workshops, and Satoshi Saturdays for monthly networking."
+    }
+  ],
+  "home.hero": {
+    "dateLocation": "v0.2 · dates TBA 🏝️ Próspera, Roatán, Honduras",
+    "logoAlt": "Bitcoin Vibecamp",
+    "titleLine1": "bitcoin",
+    "titleLine2": "vibecamp",
+    "taglineLine1": "v0.1 is done — a great experiment, and a proven model.",
+    "taglineLine2": "AI workshops retreat on the pirate island. Next edition:",
+    "taglineHighlight": "v0.2, dates TBA",
+    "taglineSuffix": ".",
+    "bylinePrefix": "By ",
+    "organiserLabel": "Bitcoin District",
+    "organiserUrl": "https://thebitcoindistrict.com",
+    "friendsLabel": "friends",
+    "bylineSuffix": ".",
+    "ctaPrimary": "What's the vibe? ⛵",
+    "ctaSecondary": "FAQ",
+    "recapLabel": "v0.1 · shipped",
+    "recapLines": [
+      "The first edition was a great test — and it worked.",
+      "v0.2 is coming. Dates to be announced."
+    ],
+    "formNudge": "Express your interest in v0.2",
+    "emailPlaceholder": "you@email.com",
+    "submitLabel": "Join the next crew ⚡",
+    "submitLoadingLabel": "Joining...",
+    "errorMessage": "Something went wrong. Try again.",
+    "confirmLine1": "You're on the list.",
+    "confirmLine2": "We'll mail you the dates.",
+    "confirmPattern": "☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓ ☠ ⚓",
+    "missionLines": [
+      "The first edition worked: people arrived with ideas and left with shipped apps.",
+      "AI is reshaping everything. Even out here, beyond the system.",
+      "In a world where everything is buildable, what would you make? In digital, it's all 1s and 0s in the end — AI just handed everyone the keys."
+    ],
+    "audienceNote": "For developers, founders, hackers, vibe coders, and capable beginners who want to build in public, learn fast, and ship something real."
+  },
+  "home.schedule": {
+    "sectionLabel": "Program",
+    "headingLead": "mornings: workshops.",
+    "headingHighlight": "afternoons: free vibing under the roatán sun.",
+    "rowOne": [
+      {
+        "date": "",
+        "day": "DAY 1",
+        "name": "Vibecoding foundations",
+        "items": [
+          "What does AI actually do",
+          "Agents, not chats: file-based workflows",
+          "Prompt, plan, debug, iterate",
+          "Choose your stack, build your website"
+        ]
+      },
+      {
+        "date": "",
+        "day": "DAY 2",
+        "name": "Understanding software",
+        "items": [
+          "Basics of software architecture",
+          "Frontend, backend, database, APIs",
+          "Client vs server",
+          "Build a minigame",
+          "Model switching"
+        ]
+      },
+      {
+        "date": "",
+        "day": "DAY 3",
+        "name": "Open source & AI collaboration",
+        "items": [
+          "Why and how to open-source",
+          "Github flow: code reuse, forks, pull requests",
+          "Multiple agents working together",
+          "Nostr: authentication and messaging"
+        ]
+      },
+      {
+        "date": "",
+        "day": "DAY 4",
+        "name": "Deploy & release",
+        "items": [
+          "Integrate bitcoin",
+          "Domains, env. variables, secrets",
+          "Polish & publish",
+          "“Make no mistakes.”"
+        ],
+        "accent": true
+      }
+    ],
+    "rowTwo": [
+      {
+        "date": "",
+        "day": "DAY 5",
+        "name": "Cowork & celebrate",
+        "items": [
+          "Morning relaxed cowork",
+          "Beach hangout 🏖️",
+          "Evening party"
+        ],
+        "accent": true
+      },
+      {
+        "date": "",
+        "day": "DAY 6",
+        "name": "Business networking",
+        "items": [
+          "Boattrip / island exploration",
+          "Networking lunch",
+          "Demo Day: pitch & vote"
+        ]
+      }
+    ],
+    "everyDayLabel": "Every day · days 1–4",
+    "everyDay": [
+      {
+        "time": "09:00 – 13:00",
+        "label": "workshops & lessons"
+      },
+      {
+        "time": "14:00 – 19:00",
+        "label": "open building — free roaming, cowork, lunch, mentor consults"
+      },
+      {
+        "time": "20:00",
+        "label": "one short session + daily recap"
+      }
+    ],
+    "everyDayNote": "Planned agenda for v0.2 — exact dates TBA. Plus social activities and roatán chill throughout. Days 5 and 6 run on their own rhythm.",
+    "learnMoreLabel": "Learn more → the explainer"
+  },
+  "home.stats": {
+    "stats": [
+      {
+        "number": "v0.1",
+        "label": "done — model proven",
+        "emoji": "✅"
+      },
+      {
+        "number": "Days 1–4",
+        "label": "Workshops & building",
+        "emoji": "👨‍💻"
+      },
+      {
+        "number": "Days 5–6",
+        "label": "Demo day + business tourism",
+        "emoji": "🛥️"
+      },
+      {
+        "number": "→",
+        "label": "opportunities, friendships, horizons",
+        "emoji": "🏝️"
+      }
+    ]
+  },
+  "home.tickets": {
+    "heading": "tickets for v0.2",
+    "headingEmoji": "🎟️",
+    "intro": "Pricing below is what v0.1 ran on — v0.2 will be in the same range. Leave your email and you'll hear the dates first.",
+    "datesNote": "🏴‍☠️ v0.2 · dates to be announced",
+    "tickets": [
+      {
+        "name": "Standard",
+        "price": "500,000 sats",
+        "features": [
+          {
+            "text": "6-day event access",
+            "highlight": false
+          },
+          {
+            "text": "Workshops & demos",
+            "highlight": false
+          },
+          {
+            "text": "WiFi + Starlink",
+            "highlight": false
+          },
+          {
+            "text": "Some group meals",
+            "highlight": false
+          }
+        ],
+        "accent": false
+      },
+      {
+        "name": "All-Inclusive",
+        "price": "2,000,000 sats",
+        "features": [
+          {
+            "text": "Everything in Standard",
+            "highlight": false
+          },
+          {
+            "text": "Accommodation included",
+            "highlight": true
+          },
+          {
+            "text": "Full meal plan",
+            "highlight": true
+          },
+          {
+            "text": "Local transport",
+            "highlight": false
+          }
+        ],
+        "accent": true
+      }
+    ],
+    "residentsNote": "Roatán residents: free",
+    "inviteLabel": "Bring a friend — drop their email too",
+    "invitePlaceholder": "friend@email.com",
+    "inviteButton": "Invite ⚡",
+    "inviteLoadingLabel": "...",
+    "inviteSuccess": "✅ Invite sent! We'll email them."
+  },
+  "home.whatisit": {
+    "sectionLabel": "What is Vibecamp",
+    "verticalLabel": "The default mode is building.",
+    "headingLine1": "0.5 bootcamp,",
+    "headingLine2": "0.5 pirate retreat.",
+    "body": "Come with a project, or just an idea; build with your team, find one here or work solo. Learn to create proper software with AI: agentic workflows, vibe coding, and shipping real deployed apps. We teach, you build. Spend the week building with AI on the Caribbean libertarian island. Workshops, talks, and a soft hackathon — for experts and beginners.",
+    "photos": [],
+    "facts": [
+      {
+        "emoji": "⚙️",
+        "title": "format.md",
+        "desc": "15-30 builders, half are pros, half not yet / small cozy group, everyone knows everyone by day two / workshops + deep focus + socials, on a good vibes."
+      },
+      {
+        "emoji": "🎓",
+        "title": "learn.md",
+        "desc": "Learn vibe coding and agentic workflows from people who ship daily. Leave with the app you always dreamed of — built and deployed by you. No coding background needed — we start from git and architecture basics and build up from there."
+      },
+      {
+        "emoji": "🛠️",
+        "title": "build.md",
+        "desc": "Soft hackathon: solve a real problem on Roatán, or bring your own dream app idea. Learning first, competition second. Small symbolic prizes for the best local-impact project — the real win is what you ship and learn."
+      },
+      {
+        "emoji": "🏝️",
+        "title": "Stay longer",
+        "desc": "Many people stay a bit longer, and most come back later."
+      }
+    ]
+  },
+  "home.whyprospera": {
+    "sectionLabel": "The Location",
+    "headingLine1": "Próspera,",
+    "headingHighlight": "Roatán",
+    "headingEmoji": "🌴",
+    "lead": "A private jurisdiction on a Caribbean island. Bitcoin is legal tender here.",
+    "note": "Accommodation is inside or near Próspera. Some group meals included. Full meal plan available. Kitchen in every apartment.",
+    "telegramLabel": "Join Bitcoin District chat",
+    "telegramUrl": "https://telegram.thebitcoindistrict.com",
+    "districtLabel": "Visit Bitcoin District",
+    "districtUrl": "https://thebitcoindistrict.com",
+    "cards": [
+      {
+        "emoji": "₿",
+        "title": "Bitcoin legal tender",
+        "desc": "Inside Próspera, Bitcoin is the official unit of account. Most businesses accept it."
+      },
+      {
+        "emoji": "🏛️",
+        "title": "Bitcoin ecosystem",
+        "desc": "BIG! Bitcoin Center & Bitcoin District with activist network, multiple projects, neighborhood under construction."
+      },
+      {
+        "emoji": "🔓",
+        "title": "24/7 access",
+        "desc": "All venues available around the clock. Build at 2am if that's when you're sharp."
+      },
+      {
+        "emoji": "🏘️",
+        "title": "~100 long-term residents",
+        "desc": "Próspera is a functioning neighborhood, not an event pop-up. Families live here."
+      },
+      {
+        "emoji": "🌊",
+        "title": "Roatán island",
+        "desc": "Caribbean island off Honduras. Beaches, reef diving, two gyms, tennis, restaurants. August is low season."
+      },
+      {
+        "emoji": "✈️",
+        "title": "Getting there",
+        "desc": "Fly into RTB (Roatán airport). Short transfer to Próspera. English widely spoken."
+      }
+    ]
+  },
+  "home.friends": {
+    "sectionLabel": "Friends",
+    "headingLead": "Our",
+    "headingHighlight": "friends",
+    "headingEmoji": "🤝",
+    "intro": "We're on the same ship.",
+    "partners": [
+      {
+        "name": "Bitcoin District",
+        "url": "https://thebitcoindistrict.com",
+        "desc": "Community for Bitcoin builders"
+      },
+      {
+        "name": "Próspera",
+        "url": "https://prospera.co",
+        "desc": "Free city on Roatán"
+      },
+      {
+        "name": "AmityAge",
+        "url": "https://amityage.com",
+        "desc": "Education through and thanks to mining"
+      },
+      {
+        "name": "Shakespeare",
+        "url": "https://shakespeare.diy/",
+        "desc": "Vibe coding for Nostr & Bitcoin apps"
+      },
+      {
+        "name": "Alby",
+        "url": "https://getalby.com",
+        "desc": "Lightning wallet & identity for the web"
+      },
+      {
+        "name": "PPQ.ai",
+        "url": "https://ppq.ai",
+        "desc": "AI for builders"
+      },
+      {
+        "name": "Shadowy Supercoders",
+        "url": null,
+        "desc": "+ You"
+      }
+    ],
+    "people": [
+      {
+        "name": "Dusan",
+        "url": "https://www.dusanmatuska.com/"
+      },
+      {
+        "name": "Tomek",
+        "url": "https://x.com/itstomekk"
+      },
+      {
+        "name": "Francis",
+        "url": "https://www.francismars.com/"
+      },
+      {
+        "name": "Sync",
+        "url": "https://primal.net/Sync"
+      }
+    ],
+    "buzzLabel": "Join the Buzz 🐝",
+    "buzzUrl": "https://bitcoindistrict.communities.buzz.xyz/invite/v2.iLgASnyFXoEJFI-6IOWJw8z2OwX_p3_2WNGAG-ynETc",
+    "ctaLabel": "Become a friend ✉️",
+    "ctaEmail": "vibecamp@thebitcoindistrict.com"
+  },
+  "site.nav": {
+    "logoAlt": "Bitcoin Vibecamp",
+    "items": [
+      {
+        "label": "About",
+        "id": "what"
+      },
+      {
+        "label": "Program",
+        "id": "schedule"
+      },
+      {
+        "label": "Location",
+        "id": "location"
+      },
+      {
+        "label": "Friends",
+        "id": "friends"
+      },
+      {
+        "label": "FAQ",
+        "id": "faq"
+      }
+    ]
+  },
+  "site.footer": {
+    "logoAlt": "Bitcoin District",
+    "brandLead": "Bitcoin",
+    "brandHighlight": "Vibecamp",
+    "organiserLabel": "Bitcoin District",
+    "organiserUrl": "https://thebitcoindistrict.com",
+    "friendsLabel": "friends",
+    "year": "2026"
+  },
+  "site.meta": {
+    "title": "Bitcoin Vibecamp — Builder Bootcamp in Próspera, Roatán",
+    "description": "6-day Bitcoin & AI builder bootcamp in Próspera, Roatán — where Bitcoin is legal tender. v0.1 shipped; v0.2 dates TBA.",
+    "keywords": "Bitcoin Vibecamp, Bitcoin hackathon, Próspera, Roatán, Bitcoin builders, Bitcoin legal tender, Honduras, Lightning Network, ZEDE",
+    "author": "Bitcoin District & friends",
+    "canonical": "https://bitcoinvibe.camp/",
+    "themeColor": "#041c2e",
+    "ogType": "website",
+    "ogUrl": "https://bitcoinvibe.camp/",
+    "ogTitle": "Bitcoin Vibecamp — Learn to Build Software with AI",
+    "ogDescription": "Six days on Roatán. AI workshops retreat inside Próspera where Bitcoin is legal tender. v0.2 dates TBA.",
+    "ogSiteName": "Bitcoin Vibecamp",
+    "ogImage": "https://bitcoinvibe.camp/og-image.jpg?v=3",
+    "ogImageAlt": "Bitcoin Vibecamp — learn to build software with AI on a pirate island in Próspera, Roatán",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Bitcoin Vibecamp — Learn to Build Software with AI",
+    "twitterDescription": "Six days on Roatán. AI workshops retreat inside Próspera where Bitcoin is legal tender. v0.2 dates TBA.",
+    "twitterImage": "https://bitcoinvibe.camp/og-image.jpg?v=3",
+    "twitterImageAlt": "Bitcoin Vibecamp — Próspera, Roatán",
+    "eventJsonLd": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Bitcoin Vibecamp 2026",
+      "description": "Six-day builder bootcamp & hackathon inside Próspera ZEDE, Roatán — where Bitcoin is legal tender.",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-22",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Próspera ZEDE, Roatán",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Roatán",
+          "addressRegion": "Bay Islands",
+          "addressCountry": "HN"
+        }
+      },
+      "image": [
+        "https://bitcoinvibe.camp/og-image.jpg"
+      ],
+      "url": "https://bitcoinvibe.camp/",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Bitcoin District",
+        "url": "https://thebitcoindistrict.com"
+      }
+    },
+    "faqJsonLd": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Vibecamp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vibecamp is a week of hands-on workshops that teach you to build software using AI. It's not a competition — it's intensive teaching and building with a small, motivated group. Together we take on real digital problems in the Próspera ecosystem and ship actual solutions, plus some mini games along the way."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When and where?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Próspera ZEDE, Roatán, Honduras. Six days: days 1–4 workshops + building, day 5 cowork & party, day 6 business networking + Demo Day. v0.2 dates TBA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the daily schedule like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mornings: 3–4 workshops, 9:00–13:00, then a lunch break. Afternoons are yours to build at your own tempo with mentors available. After sunset one short vibe-coding lesson and a quick round-up."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to know how to code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. We teach you the workflow, the tools and the habits — you'll walk out of Vibecamp able to build and ship your own software."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Próspera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Próspera ZEDE is an early-stage city development on Roatán, Honduras — the only jurisdiction where Bitcoin is legal tender. Functional infrastructure, a growing builder scene, Caribbean nature around it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most nationalities can enter Honduras without a visa. Check your country's requirements early; we can issue an invitation letter if needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get there?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fly into RTB (Roatán airport). Short drive to Próspera. Group transport coordinated. No car needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the weather like? What should I pack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hot and humid, 28–30°C. Pack light clothes, a rain layer, sunscreen, swimwear, sandals, closed shoes, laptop and chargers."
+          }
+        }
+      ]
+    }
+  }
+}
